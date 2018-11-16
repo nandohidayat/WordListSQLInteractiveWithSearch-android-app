@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.example.wordlistsqlsearchable;
+package com.nandohidayat.app.wordlistsqlsearchable;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_search:
                 // Starts search activity.
-                Intent intent = new Intent(getBaseContext(), com.android.example.wordlistsqlsearchable.SearchActivity.class);
+                Intent intent = new Intent(getBaseContext(), SearchActivity.class);
                 startActivity(intent);
                 return true;
         }

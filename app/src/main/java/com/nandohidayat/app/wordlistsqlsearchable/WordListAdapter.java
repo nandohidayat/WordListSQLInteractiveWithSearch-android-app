@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.example.wordlistsqlsearchable;
+package com.nandohidayat.app.wordlistsqlsearchable;
 
 import android.app.Activity;
 import android.content.Context;
