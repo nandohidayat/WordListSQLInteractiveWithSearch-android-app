@@ -15,7 +15,7 @@ limitations under the License. -->
 
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.example.wordlistsqlsearchable">
+    package="com.nandohidayat.app.wordlistsqlsearchable">
 
     <application
         android:allowBackup="true"
@@ -23,7 +23,7 @@ limitations under the License. -->
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.android.example.wordlistsqlsearchable.com.nandohidayat.example.wordlistsqlsearchable.MainActivity">
+        <activity android:name="com.nandohidayat.app.wordlistsqlsearchable.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,8 +31,8 @@ limitations under the License. -->
             </intent-filter>
 
         </activity>
-        <activity android:name="com.android.example.wordlistsqlsearchable.com.nandohidayat.example.wordlistsqlsearchable.EditWordActivity"></activity>
-        <activity android:name="com.android.example.wordlistsqlsearchable.com.nandohidayat.example.wordlistsqlsearchable.SearchActivity"></activity>
+        <activity android:name="com.nandohidayat.app.wordlistsqlsearchable.EditWordActivity"></activity>
+        <activity android:name="com.nandohidayat.app.wordlistsqlsearchable.SearchActivity"></activity>
 
     </application>
 
